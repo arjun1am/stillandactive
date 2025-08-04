@@ -9,8 +9,8 @@ Hello world! This is my first blog post.
 
 Some more content here.
 
-I hope this find you all well. Hello world. Does this work?
-does this table work?
+Hello world. Does this work?
+does this table work? Thanks for reading.
 
 | One           | Two                    |
 | ------------- | ---------------------- |
