@@ -128,3 +128,11 @@ table tr:nth-child(even) {
   display: block;
   margin: 20px 0;
 }
+
+.red-cell {
+  background-color: red;
+}
+
+.green-cell {
+  background-color: green;
+}
