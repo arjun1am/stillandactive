@@ -47,7 +47,21 @@ h1 a:hover{
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 2px;
-
+}
+.stats{
+  Position:absolute;
+  top:0;
+  left:0;
+  padding:8px;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.highlight{
+  color:#A9FF78;
+}
+.neg{
+    color:#ee2023;
 }
 .container h1{
   margin-top:80px;
@@ -270,7 +284,7 @@ th{
 
   padding: 16px 22px 22px 22px;
   border: 1px solid #232327;
-  border-radius: 0px;
+  border-radius: 4px;
   corner-shape: bevel;
   background: rgba(11, 12, 16, 0.3);
   height:auto;
@@ -323,8 +337,8 @@ th{
 
 .tag {
   display: inline-block;
-  padding: 2px 6px;
-  border-radius: 2px;
+  padding: 4px 7px;
+  border-radius: 3px;
   font-size: 12px;
   margin-right: 5px;
   text-wrap: nowrap; 
