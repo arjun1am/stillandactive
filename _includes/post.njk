@@ -16,7 +16,22 @@
       <header>
         <h1>{{ title }}</h1>
         <time>{{ date | dateDisplay }}</time>
+        <div class="post-tags">
+          {% if type %}
+            <span class="tag tag-{{ type }}">{{ type }}</span>
+          {% endif %}
+          {% if status %}
+            <span class="tag tag-{{ status }}">{{ status }}</span>
+          {% endif %}
+          {% if health %}
+            <span class="tag tag-{{ health }}">{{ health }}</span>
+          {% endif %}
+          {% if level %}
+            <span class="tag tag-level">Lvl: {{ level }}</span>
+          {% endif %}
+        </div>
       </header>
+      
       
       <div class="content">
         {{ content | safe }}
