@@ -40,23 +40,34 @@ h1 a:hover{
 }
 
 .update{
-  Position:absolute;
-  top:0;
-  right:0;
-  padding:8px;
-  font-size: 9px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.stats{
-  Position:absolute;
-  top:0;
+  Position:fixed;
   left:0;
-  padding:8px;
+  right:0;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  padding:12px;
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin:auto;
+  margin-top:1%;
+  border: 1px solid #232327;
+    border-radius: 4px;
+  background: rgba(11, 12, 16, 0.8);
+  backdrop-filter: blur(20px);
+  /* width:99%; */
+  z-index:100;
+  gap: 8px; /* Example gap */
+  width:98%;
 }
+
+/* .update p{
+  flex: 0 0 auto;
+} */
+
 .highlight{
   color:#A9FF78;
 }
@@ -104,6 +115,7 @@ h1 a:hover{
   text-decoration: none;
   display: inline-block;
   margin-bottom: 30px;
+  margin-top:50px;
 }
 
 .back-link:hover {
@@ -141,17 +153,28 @@ article time {
   color: #0066cc;
 }
 
+.content ul{
+  padding-left:40px;
+}
+
+.content hr{
+  margin:40px 0px;
+  opacity:20%;
+}
+
 /* Add your custom styles and animations here! */
 
 
 /* Table styles */
 table {
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
   width: 100%;
   margin: 20px 0;
   /* height:300px; */
   /* overflow-y: scroll; */
-  
+  overflow-x: scroll;
+  border:1px solid #2b2b2b;
+  background:rgba(11, 12, 16, 0.3);
 }
 
 table th,
@@ -285,7 +308,6 @@ th{
   padding: 16px 22px 22px 22px;
   border: 1px solid #232327;
   border-radius: 4px;
-  corner-shape: bevel;
   background: rgba(11, 12, 16, 0.3);
   height:auto;
   transition:all .1s ease;

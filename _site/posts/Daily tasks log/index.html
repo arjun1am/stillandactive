@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }} - My Blog</title>
+  <title>Daily tasks log - My Blog</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -21,27 +21,29 @@
     
     <article>
       <header>
-        <h1>{{ title }}</h1>
-        <time>{{ date | dateDisplay }}</time>
+        <h1>Daily tasks log</h1>
+        <time>August 30, 2025</time>
         <div class="post-tags">
-          {% if type %}
-            <span class="tag tag-{{ type }}">{{ type }}</span>
-          {% endif %}
-          {% if status %}
-            <span class="tag tag-{{ status }}">{{ status }}</span>
-          {% endif %}
-          {% if health %}
-            <span class="tag tag-{{ health }}">{{ health }}</span>
-          {% endif %}
-          {% if level %}
-            <span class="tag tag-level">Lvl: {{ level }}</span>
-          {% endif %}
+          
+            <span class="tag tag-journal">journal</span>
+          
+          
+          
+          
         </div>
       </header>
       
       
       <div class="content">
-        {{ content | safe }}
+        <h3>Here I will keep a record of my daily tasks. Each completed task gives +10 EXP. failure to complete a daily task is -10 EXP.</h3>
+<hr>
+<h4>Meditation:</h4>
+<p>Do at least 5mins of formal meditation per day</p>
+<h4>Exercise:</h4>
+<p>Do at least 30mins of exercise per day</p>
+<h4>Clean:</h4>
+<p>Keep clean, brush teeth, and drink enough water everyday</p>
+
       </div>
     </article>
   </div>

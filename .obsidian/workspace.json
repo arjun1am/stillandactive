@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Eat healthy for 5 days.md",
+                "file": "posts/The System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Eat healthy for 5 days"
+              "title": "The System"
             }
           }
         ]
@@ -171,23 +171,24 @@
   },
   "active": "06e04bc9a4f279a9",
   "lastOpenFiles": [
+    "posts/Daily tasks log.md",
+    "posts/Eat healthy for 5 days.md",
+    "posts/Apply to 10 Jobs.md",
+    "posts/Run a sub 10min mile.md",
+    "_site/posts/Daily tasks log/index.html",
+    "_site/posts/Daily tasks log",
+    "_site/posts/The System 1/index.html",
+    "_site/posts/The System 1",
+    "posts/The System.md",
     "posts/Drink 3L of water everyday for a month.md",
     "posts/Drink 3L of water everyday for 2 weeks.md",
-    "posts/Run a sub 10min mile.md",
     "posts/Gratitude journaling everyday for a week.md",
-    "posts/Apply to 10 Jobs.md",
-    "posts/Eat healthy for 5 days.md",
     "_site/index.html",
     "_site/posts/The System/index.html",
     "_site/posts/Gratitude journaling everyday for a week/index.html",
     "_site/posts/Run a sub 10min mile/index.html",
     "_site/posts/Eat healthy for 5 days/index.html",
     "_site/posts/Drink 3L of water everyday for a month/index.html",
-    "_site/posts/Drink 3L of water everyday for 2 weeks/index.html",
-    "_site/posts/Couch to 5k challenge/index.html",
-    "_site/posts/Apply to 10 Jobs/index.html",
-    "_site/posts/The System",
-    "posts/The System.md",
     "posts/Couch to 5k challenge.md",
     "2025-08-28.md",
     "_site/assets/font/README.md",
@@ -209,7 +210,6 @@
     "node_modules/@iarna/toml/CHANGELOG.md",
     "node_modules/fast-glob/README.md",
     "node_modules/graceful-fs/README.md",
-    "node_modules/mustache/README.md",
     "assets/images/krishna.jpg",
     "assets/images/6797bd0cfdfca99bec500a72_Arc-Hero-1.png",
     "_site/assets/images/6797bd0cfdfca99bec500a72_Arc-Hero-1.png",
